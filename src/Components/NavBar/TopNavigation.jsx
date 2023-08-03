@@ -17,7 +17,7 @@ const TopNavigation = () => {
       </li>
       <li tabIndex={0}>
         <NavLink
-          to={"/app"}
+          to={"/slider"}
           className={({ isActive, isPending }) =>
             isActive ? activeClass : isPending ? "pending" : inactiveClass
           }
@@ -27,7 +27,7 @@ const TopNavigation = () => {
       </li>
       <li>
         <NavLink
-          to={"/bd"}
+          to={"/popular"}
           className={({ isActive, isPending }) =>
             isActive ? activeClass : isPending ? "pending" : inactiveClass
           }
