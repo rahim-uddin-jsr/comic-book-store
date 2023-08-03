@@ -77,7 +77,7 @@ const TopNavigation = () => {
             <input
               type="text"
               placeholder="Search"
-              className="input input-bordered w-40 rounded-3xl px-12 md:w-auto bg-slate-50"
+              className="input text-[12px] input-bordered w-40 rounded-3xl px-12 md:w-auto bg-slate-50"
             />
             <svg
               className="absolute top-[12px] left-[15px] w-6 fill-[#ddd]"
