@@ -51,4 +51,30 @@ button.slick-arrow.slick-next {
   /* opacity: 0.75; */
   font-size: 16px;
   color: rgb(8, 147, 253);
+  z-index: 99999;
+}
+
+.slide-1 {
+  background-image: url("../../assets/images/slider/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+}
+.slide-2 {
+  background-image: url("../../assets/images/slider/2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
+}
+.slide-3 {
+  background-image: url("../../assets/images/slider/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 450px;
 }

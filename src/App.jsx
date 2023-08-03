@@ -1,4 +1,5 @@
 import "./App.css";
+import MiddleNavigation from "./Components/NavBar/MiddleNavigation";
 import HeaderSlider from "./Components/Sliders/HeaderSlider";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <br />
         <br />
         <HeaderSlider />
+        <MiddleNavigation />
       </div>
       <div>
         {/* 1 */}

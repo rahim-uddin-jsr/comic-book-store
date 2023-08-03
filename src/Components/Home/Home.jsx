@@ -1,3 +1,4 @@
+import MiddleNavigation from "../NavBar/MiddleNavigation";
 import TopNavigation from "../NavBar/TopNavigation";
 import HeaderSlider from "../Sliders/HeaderSlider";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <TopNavigation />
       <HeaderSlider />
+      <MiddleNavigation />
     </div>
   );
 };
